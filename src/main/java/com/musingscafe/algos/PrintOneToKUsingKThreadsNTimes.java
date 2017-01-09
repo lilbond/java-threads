@@ -10,10 +10,6 @@ public class PrintOneToKUsingKThreadsNTimes {
     }
 
     public void print() {
-        //create k-1 locks
-        //create k printer object
-        //set locks
-        //add calls one after another
         int k = 4;
         Object lock = new Object();
 
